@@ -1,0 +1,654 @@
+/* variables inicio */
+/* variables fin */
+/* header/footer  inicio*/
+header img {
+  height: 100px;
+}
+header .nav-link {
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+header .nav-link:hover {
+  color: orangered;
+  transition: ease-out 0.7s;
+}
+
+footer {
+  background-color: rgb(24, 22, 22);
+  color: gray;
+}
+
+/* header/footer fin */
+/* contacto inicio */
+.contacto {
+  background-color: rgb(24, 22, 22);
+  color: rgb(190, 137, 137);
+  font-family: sans-serif;
+  height: 100%;
+}
+.contacto img {
+  width: 100%;
+  height: 100%;
+}
+.contacto h2 {
+  font-size: 3em;
+}
+.contacto .contact-wrapper {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  padding: 1em;
+}
+.contacto form {
+  background-color: #222222;
+}
+.contacto .contact-contenido {
+  margin: 0;
+  padding: 1em;
+}
+.contacto input, .contacto button, .contacto textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0ch;
+  border-bottom: 1px solid red;
+  color: orangered;
+}
+.contacto button {
+  color: orangered;
+  background-color: #b70e21;
+  padding: 1em;
+}
+.contacto button:hover {
+  background: #d63031;
+  color: white;
+  transition: 1s ease-out;
+  outline: 0ch;
+}
+
+/* contacto fin */
+/* index.html inicio */
+#hero {
+  height: 600px;
+  background-image: url(img.html/Aaaaaassssssaaaa.JPEG);
+  background-position: center;
+  background-size: cover;
+}
+#hero h1 {
+  color: orangered;
+  font-size: 80px;
+  position: relative;
+  top: 400px;
+  text-shadow: 1px 1px 4px red;
+  font-family: sans-serif;
+}
+#hero h4 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 4px orangered;
+}
+
+.lista-info {
+  background-color: rgb(80, 70, 70);
+  color: white;
+  height: 350px;
+}
+.lista-info ul {
+  list-style: none;
+}
+.lista-info ul li {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.video-informativo {
+  height: 650px;
+  background-image: linear-gradient(to bottom, black, rgb(69, 60, 60));
+  padding-top: 55px;
+}
+.video-informativo h2 {
+  color: white;
+  font-size: 48px;
+}
+.video-informativo p {
+  color: white;
+}
+.video-informativo video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+
+.video-yt {
+  background-color: black;
+  height: 650px;
+  padding-top: 55px;
+}
+.video-yt h3 {
+  color: white;
+  font-size: 43px;
+}
+.video-yt p {
+  color: white;
+}
+.video-yt iframe {
+  position: relative;
+  top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  #hero h1 {
+    font-size: 100px;
+    position: relative;
+    top: 450px;
+  }
+  #hero h4 {
+    padding-left: 40px;
+  }
+
+  .video-informativo {
+    height: 550px;
+  }
+  .video-informativo h2 {
+    position: relative;
+    top: 150px;
+    font-size: 60px;
+  }
+  .video-informativo p {
+    position: relative;
+    top: 150px;
+    font-size: 18px;
+  }
+  .video-informativo video {
+    align-items: center;
+  }
+
+  .lista-info {
+    height: 600px;
+    background-image: url(img.html/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    background-position: 0px 50px;
+  }
+  .lista-info ul {
+    margin-right: 100px;
+    position: relative;
+    top: 140px;
+  }
+
+  .video-yt {
+    height: 500px;
+  }
+  .video-yt h3 {
+    position: relative;
+    top: 100px;
+  }
+  .video-yt p {
+    position: relative;
+    top: 100px;
+  }
+}
+/* index.html fin */
+/* sobremi.html inicio */
+.sobremi-container {
+  background-image: linear-gradient(to bottom, rgb(24, 22, 22), rgb(65, 60, 60));
+  color: white;
+  height: 100%;
+}
+.sobremi-container .sobremi {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.sobremi-container .mimision {
+  position: relative;
+  top: 30px;
+  font-size: 19px;
+}
+.sobremi-container .mimision img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 10px;
+  background-size: cover;
+}
+
+/* sobremi.html fin */
+/* clientes.html inicio */
+.titulo-clientes {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.img {
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.clientes-slogan {
+  font-size: 22px;
+  background-color: black;
+  color: orangered;
+  font-family: sans-serif;
+}
+
+.clientes-container {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  height: 3000px;
+  background-color: rgb(24, 22, 22);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.clientes-container .img1 {
+  grid-column: 1/3;
+  background-image: url(img.html/cambio\ 1.jpg);
+  background-size: cover;
+  height: 300px;
+}
+.clientes-container .img1::before {
+  content: "JUAN 23 anos, estudiante de derecho";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img1:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img2 {
+  grid-column: 1/3;
+  background-image: url(img.html/cambio\ 2.jpg);
+  background-size: cover;
+  height: 300px;
+}
+.clientes-container .img2::before {
+  content: "MARIA 27 anos, atleta wellnes y trabaja en un mayorista";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img2:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img3 {
+  grid-column: 1/3;
+  background-image: url(img.html/cambio\ 3.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img3::before {
+  content: "MARIANO 33 anos, trabaja en el rubro inmobiliario";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img3:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img4 {
+  grid-column: 1/3;
+  background-image: url(img.html/cambio4.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img4::before {
+  content: "JUAN CARLOS 41 anos, trabaja en la construccion";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img4:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img5 {
+  background-image: url(img.html/antes1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img5::before {
+  content: "MATIAS 16 anos";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img5:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img6 {
+  background-image: url(img.html/despues1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img6::before {
+  content: "estudiante";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img6:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img7 {
+  background-image: url(img.html/antes2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img7::before {
+  content: "MARCOS 20 anos ";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img7:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img8 {
+  background-image: url(img.html/despues2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img8::before {
+  content: "estudiante de educacion fisica y trabaja en una pizzeria";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img8:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img9 {
+  background-image: url(img.html/antes\ 3.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img9::before {
+  content: "franco 21 anos ";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img9:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img10 {
+  background-image: url(img.html/despues3.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img10::before {
+  content: "jugador de futsal";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img10:hover::before {
+  transform: translate(0);
+}
+.clientes-container .img11 {
+  grid-column: 1/3;
+  background-image: url(img.html/cambio5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clientes-container .img11::before {
+  content: "GUILLERMO 55 anos, ingeniero y tiene 3 hijos ";
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 103, 123, 0.6);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientes-container .img11:hover::before {
+  transform: translate(0);
+}
+
+@media only screen and (min-width: 1090px) {
+  .clientes-container {
+    height: 1500px;
+    background-color: rgb(24, 22, 22);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .clientes-container .img1 {
+    grid-column: 1/3;
+  }
+  .clientes-container .img2 {
+    grid-column: 4/6;
+  }
+  .clientes-container .img3 {
+    grid-column: 1/3;
+  }
+  .clientes-container .img4 {
+    grid-column: 4/6;
+  }
+  .clientes-container .img5 {
+    grid-column: 1/2;
+  }
+  .clientes-container .img6 {
+    grid-column: 2/3;
+  }
+  .clientes-container .img7 {
+    grid-column: 4/5;
+  }
+  .clientes-container .img8 {
+    grid-column: 5/6;
+  }
+  .clientes-container .img11 {
+    grid-column: 4/6;
+  }
+}
+/* planes.html inicio */
+.planes {
+  background-color: rgb(24, 22, 22);
+  color: white;
+}
+.planes aside {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  border-bottom: 1px solid red;
+}
+.planes button {
+  background-color: #d63031;
+  display: flex;
+  justify-content: center;
+}
+
+/* planes.html fin */
+/* servicios.html inicio */
+.servicios {
+  background-color: black;
+}
+.servicios figure {
+  width: 100%;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba 0, 0, 0, 0.5;
+  cursor: pointer;
+}
+.servicios figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.servicios figure .contenido {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  text-shadow: 1px 1px 4px white;
+}
+.servicios figure:hover > .contenido {
+  opacity: 1;
+  visibility: visible;
+}
+
+.extras {
+  background-image: linear-gradient(to bottom, rgb(24, 22, 22), rgb(65, 60, 60));
+  color: white;
+  height: 370px;
+}
+.extras p {
+  margin: 20px;
+  font-family: sans-serif;
+}
+.extras img {
+  height: 50px;
+  position: relative;
+  left: 210px;
+  margin: 29px;
+}
+.extras .img-telegram {
+  position: relative;
+  left: 270px;
+}
+
+@media only screen and (max-width: 768px) {
+  .extras {
+    height: 490px;
+  }
+  .extras img {
+    position: relative;
+    left: 120px;
+  }
+  .extras .img-telegram {
+    position: relative;
+    left: 180px;
+  }
+}
+/* servcios.html fin */
+
+/*# sourceMappingURL=estilos.css.map */
